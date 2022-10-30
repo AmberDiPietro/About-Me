@@ -489,3 +489,83 @@ width:100%;
 background-color:#1f1f1f;
 }
 
+
+@media only screen and (max-width: 600px) {
+
+  .introParagraph {
+    width: 100%;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #515151;
+    }
+  .grants
+  {
+  display: flex;
+  align-self: flex-end !important;  
+  justify-content: flex-end;
+  width: 148px;
+  height: 360px;
+  flex-grow: 0;
+  margin: 0px 0px 0px 0px;
+  
+  
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0px 0px 25px 0px;
+    height: 360px;
+    width: 370px;
+    padding: 0px;
+    border-radius: 20px;
+    background-color: #e1e0e0;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    }
+  .grants2 {
+  display: flex;
+  align-self: flex-start;
+  width: 214px;
+  height: 342px;
+  flex-grow: 0;
+  margin: 0px 0px 0px 0px;
+  }
+
+  .headerImage {
+    display: none;
+    }
+    .intro {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px 0px 25px;
+    padding-right: 0px;
+    }
+    .Title {
+    width: 350px;
+    height: 100px;
+    flex-grow: 0;
+    font-family: PlayfairDisplay;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #25282b;
+    }
+    
+}
