@@ -537,6 +537,56 @@ background-color:#1f1f1f;
   flex-grow: 0;
   margin: 0px 0px 0px 0px;
   }
+  .box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 0px 20px 0px;
+    height: 360px;
+    width: 370px;
+    padding: 0px;
+    border-radius: 20px;
+  background-color: #e1e0e0;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+.box2 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+margin: 0px 0px 20px 0px;
+height: 360px;
+width: 370px;
+padding: 0px;
+border-radius: 20px;
+background-color: #333333;
+box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.expertise {
+  height: auto;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0px 0 0 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ 
+}
+.expertblock {
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding: 0 0 0 0px;
+
+
+}
 
   .headerImage {
     display: none;
